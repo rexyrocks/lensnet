@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# data and checkpoints stay local
+data/*
+!data/.gitkeep
+*.pt
+*.pth
+*.npy
+*.npz
